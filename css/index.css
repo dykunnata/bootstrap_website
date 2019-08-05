@@ -7,9 +7,7 @@ footer {
   margin-top: 50px;
 }
 
-.card {
 
-}
 
 .button {
   background: pink;
@@ -65,13 +63,14 @@ margin-bottom: 20px;
 }
 
 #aboutme {
-  background-color: rgb(205, 207, 211);
+  background-color: rgb(239, 239, 240);
   background-repeat: no-repeat;
   width: 80%;
   padding: 100px 40px;
   margin-left: 120px;
   margin-top: 40px;
   border-radius: 8px;
+  border: 3px solid rgb(10, 39, 133);
 }
 
 #hello {
@@ -218,9 +217,12 @@ font-size: 30px;
   text-align: left;
 }
 
-.display-4 {
-  color: lightskyblue;
-  font-size: 40px;
+#display-4 {
+  background: url(https://i.gifer.com/J4o.gif);
+  font-size: 50px;
+  font-weight: bolder;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .my-4 {
